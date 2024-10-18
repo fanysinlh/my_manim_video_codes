@@ -72,11 +72,11 @@ class Demo_1(Scene):
         self.wait()
 
         ar = Arrow()
-        self.play(Create(ar))
+        self.play(FadeIn(ar, scale=0.01))
         self.wait()
         self.play(ar.animate.become(Arrow(buff=0)))
         self.wait()
-        self.play(Uncreate(ar))
+        self.play(FadeOut(ar, scale=0.01))
         self.wait(5)
 
 
