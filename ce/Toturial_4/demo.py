@@ -96,3 +96,57 @@ class Demo_1(Scene):
             self.wait()
         self.play(Uncreate(VGroup(e, an, se, anse)))
         self.wait()
+
+class Demo_2(Scene):
+    def construct(self):
+        plane = NumberPlane()
+        for i in plane.submobjects:
+            i.set_opacity(0.3)
+        self.add(plane)
+        m = ManimBanner().scale(0.5)
+        self.play(Create(m))
+        self.wait()
+        self.play(m.animate.move_to([1, 1, 0]))
+        self.wait()
+        self.play(m.animate.shift([-1, -1, 0]))
+        self.wait(3)
+
+
+        # 涉及到scale
+        self.play(m.animate.scale(0.5))
+        self.wait(3)
+        point1 = Dot([2, -1, 0], color=YELLOW)
+        self.play(FadeIn(point1))
+        self.play(m.animate.scale(2, about_point=[2, -1, 0]))
+        self.wait(3)
+        self.play(FadeOut(point1))
+        self.wait()
+        point2 = Dot(m.get_left(), color=PINK)
+        self.play(FadeIn(point2))
+        self.play(m.animate.scale(0.5, about_edge=LEFT))
+        self.wait()
+        self.play(FadeOut(point2))
+        self.wait()
+        point3 = Dot(m.get_center(), color=RED)
+        self.play(FadeIn(point3))
+        self.play(m.animate.scale(2))
+        self.wait(3)
+        self.play(FadeOut(m, point3))
+        self.wait()
+
+
+        # 内接圆形
+        c = Circle()
+        t = Triangle()
+        self.play(FadeIn(c, t))
+        self.wait(3)
+        self.play(c.animate.scale(2), t.animate.scale(2))
+        self.wait()
+        self.play(c.animate.scale(0.5), t.animate.scale(0.5))
+        cc = Dot(c.get_center(), color=c.get_color())
+        tc = Dot(t.get_center(), color=t.get_color())
+        self.wait()
+        self.play(FadeIn(cc, tc))
+        self.wait()
+        self.play(FadeOut(*self.mobjects))
+        self.wait()
