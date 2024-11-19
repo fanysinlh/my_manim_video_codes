@@ -1,7 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/home/funhxj/Desktop/manim/media/videos/demo/480p15/partial_movie_files/DemoOpenGL/2525999796_3965683024_223132457.mp4'
-file 'file:/home/funhxj/Desktop/manim/media/videos/demo/480p15/partial_movie_files/DemoOpenGL/1939972005_3146877161_3862652151.mp4'
-file 'file:/home/funhxj/Desktop/manim/media/videos/demo/480p15/partial_movie_files/DemoOpenGL/2257425048_2816588709_1327546828.mp4'
-file 'file:/home/funhxj/Desktop/manim/media/videos/demo/480p15/partial_movie_files/DemoOpenGL/2145065776_3146877161_951501727.mp4'
-file 'file:/home/funhxj/Desktop/manim/media/videos/demo/480p15/partial_movie_files/DemoOpenGL/2145065776_3063703734_587096254.mp4'
-file 'file:/home/funhxj/Desktop/manim/media/videos/demo/480p15/partial_movie_files/DemoOpenGL/2145065776_3146877161_681500701.mp4'

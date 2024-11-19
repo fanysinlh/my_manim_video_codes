@@ -1,9 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/home/funhxj/Desktop/manim/media/videos/demo/1080p60/partial_movie_files/DemoCairo/3977891868_558970618_3385456636.mp4'
-file 'file:/home/funhxj/Desktop/manim/media/videos/demo/1080p60/partial_movie_files/DemoCairo/2852726489_1704852926_3929855957.mp4'
-file 'file:/home/funhxj/Desktop/manim/media/videos/demo/1080p60/partial_movie_files/DemoCairo/2852726489_3163184610_860771083.mp4'
-file 'file:/home/funhxj/Desktop/manim/media/videos/demo/1080p60/partial_movie_files/DemoCairo/2852726489_1704852926_1441540505.mp4'
-file 'file:/home/funhxj/Desktop/manim/media/videos/demo/1080p60/partial_movie_files/DemoCairo/2852726489_374635635_1549825488.mp4'
-file 'file:/home/funhxj/Desktop/manim/media/videos/demo/1080p60/partial_movie_files/DemoCairo/2852726489_1704852926_2604329482.mp4'
-file 'file:/home/funhxj/Desktop/manim/media/videos/demo/1080p60/partial_movie_files/DemoCairo/2852726489_3352368619_1866813285.mp4'
-file 'file:/home/funhxj/Desktop/manim/media/videos/demo/1080p60/partial_movie_files/DemoCairo/2852726489_1704852926_1454854749.mp4'
