@@ -3,7 +3,7 @@
 [梵hxj](https://m.bilibili.com/space/3546630821251576)
 
 ## 大致分类
-该仓库下有一个`ce`文件夹，包含用manimce写的代码。`gl`文件夹为使用manimgl写的代码
+该仓库下有一个`ce`文件夹，包含用manimce写的代码。`gl`文件夹为使用manimgl写的代码。`ja`文件夹则为janim代码。
 
 查看代码时，请用vscode（或其它编辑器）直接打开该库的主文件夹，在主文件夹对应的路径下输入指令，如`manim ce/Dopler/demo.py -p`。如果在其它路径下进行，可能出现一些找不到文件之类的错误。
 
